@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
 
 package com.yami.shop.admin.controller;
 
@@ -29,7 +20,8 @@ import java.util.Objects;
 /**
  * 品牌管理
  *
- * @author lgh
+ * @author renhai
+ * @date 2023/5/3
  */
 @RestController
 @RequestMapping("/admin/brand")
@@ -43,7 +35,7 @@ public class BrandController {
      */
     @GetMapping("/page")
     @PreAuthorize("@pms.hasPermission('admin:brand:page')")
-    public ResponseEntity<IPage<Brand>> page(Brand brand,PageParam<Brand> page) {
+    public ResponseEntity<IPage<Brand>> page(Brand brand, PageParam<Brand> page) {
         page.setAsc("first_char");
         IPage<Brand> brands = brandService.page(page,
                 new LambdaQueryWrapper<Brand>()

@@ -22,10 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
-/**
- * @author 菠萝凤梨
- * @date 2022/3/28 15:20
- */
+
 @RestController
 @Api(tags = "登录")
 public class LoginController {

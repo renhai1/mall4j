@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
 
 package com.yami.shop.admin.config;
 
@@ -50,8 +41,8 @@ public class SwaggerConfiguration {
         return new ApiInfoBuilder()
                 .title("在线智慧商城管理系统接口文档")
                 .description("在线智慧商城接口文档Swagger版")
-                .termsOfServiceUrl("https://www.mall4j.com/")
-                .contact(new Contact("广州市蓝海创新科技有限公司", "https://www.mall4j.com/", ""))
+                .termsOfServiceUrl("https://github.com/renhai1/mall4j")
+                .contact(new Contact("sherry", "https://github.com/renhai1/mall4j", ""))
                 .version("1.0")
                 .build();
     }

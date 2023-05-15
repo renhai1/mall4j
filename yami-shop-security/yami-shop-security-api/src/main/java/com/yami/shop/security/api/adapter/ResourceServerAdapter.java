@@ -6,10 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author 菠萝凤梨
- * @date 2022/3/28 15:17
- */
+
 @Component
 public class ResourceServerAdapter extends DefaultAuthConfigAdapter {
 

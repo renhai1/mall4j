@@ -5,8 +5,6 @@ import com.yami.shop.common.util.RedisUtil;
 
 /**
  * 适配验证码在redis的存储
- * @author 菠萝凤梨
- * @date 2022/3/25 17:33
  */
 public class CaptchaCacheServiceRedisImpl implements CaptchaCacheService {
     @Override

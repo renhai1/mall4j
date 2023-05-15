@@ -32,8 +32,8 @@ import java.util.List;
 /**
  * 商品分组
  *
- * @author hzm
- * @date 2019-04-18 09:08:36
+ * @author renhai
+ * @date 2023/5/3
  */
 @RestController
 @RequestMapping("/prod/prodTag")

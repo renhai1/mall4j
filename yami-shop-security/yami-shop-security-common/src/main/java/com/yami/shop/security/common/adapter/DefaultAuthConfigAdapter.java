@@ -6,10 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author 菠萝凤梨
- * @date 2022/3/25 17:33
- */
+
 public class DefaultAuthConfigAdapter implements AuthConfigAdapter {
     private static final Logger logger = LoggerFactory.getLogger(DefaultAuthConfigAdapter.class);
 

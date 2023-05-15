@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
 
 package com.yami.shop.admin.controller;
 
@@ -27,7 +18,10 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author lgh on 2018/10/26.
+ * 地址常用字段管理
+ *
+ * @author renhai
+ * @date 2023/5/3
  */
 @RestController
 @RequestMapping("/admin/area")
@@ -41,7 +35,7 @@ public class AreaController {
      */
     @GetMapping("/page")
     @PreAuthorize("@pms.hasPermission('admin:area:page')")
-    public ResponseEntity<IPage<Area>> page(Area area,PageParam<Area> page) {
+    public ResponseEntity<IPage<Area>> page(Area area, PageParam<Area> page) {
         IPage<Area> sysUserPage = areaService.page(page, new LambdaQueryWrapper<Area>());
         return ResponseEntity.ok(sysUserPage);
     }
@@ -99,10 +93,10 @@ public class AreaController {
     public ResponseEntity<Void> update(@Valid @RequestBody Area area) {
         Area areaDb = areaService.getById(area.getAreaId());
         // 判断当前省市区级别，如果是1级、2级则不能修改级别，不能修改成别人的下级
-        if(Objects.equals(areaDb.getLevel(), AreaLevelEnum.FIRST_LEVEL.value()) && !Objects.equals(area.getLevel(),AreaLevelEnum.FIRST_LEVEL.value())){
+        if (Objects.equals(areaDb.getLevel(), AreaLevelEnum.FIRST_LEVEL.value()) && !Objects.equals(area.getLevel(), AreaLevelEnum.FIRST_LEVEL.value())) {
             throw new YamiShopBindException("不能改变一级行政地区的级别");
         }
-        if(Objects.equals(areaDb.getLevel(),AreaLevelEnum.SECOND_LEVEL.value()) && !Objects.equals(area.getLevel(),AreaLevelEnum.SECOND_LEVEL.value())){
+        if (Objects.equals(areaDb.getLevel(), AreaLevelEnum.SECOND_LEVEL.value()) && !Objects.equals(area.getLevel(), AreaLevelEnum.SECOND_LEVEL.value())) {
             throw new YamiShopBindException("不能改变二级行政地区的级别");
         }
         hasSameName(area);

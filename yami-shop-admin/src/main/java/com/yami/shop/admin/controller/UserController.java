@@ -1,12 +1,4 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
+
 
 package com.yami.shop.admin.controller;
 
@@ -39,7 +31,8 @@ import cn.hutool.extra.emoji.EmojiUtil;
 
 
 /**
- * @author lgh on 2018/10/16.
+ * @author renhai
+ * @date 2023/5/3
  */
 @RestController
 @RequestMapping("/admin/user")
@@ -53,7 +46,7 @@ public class UserController {
      */
     @GetMapping("/page")
     @PreAuthorize("@pms.hasPermission('admin:user:page')")
-    public ResponseEntity<IPage<User>> page(User user,PageParam<User> page) {
+    public ResponseEntity<IPage<User>> page(User user, PageParam<User> page) {
         IPage<User> userIPage = userService.page(page, new LambdaQueryWrapper<User>()
                 .like(StrUtil.isNotBlank(user.getNickName()), User::getNickName, user.getNickName())
                 .eq(user.getStatus() != null, User::getStatus, user.getStatus()));

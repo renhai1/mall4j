@@ -1,12 +1,4 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
+
 
 package com.yami.shop.service.impl;
 
@@ -25,9 +17,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * 商品评论
- *
- * @author xwc
- * @date 2019-04-19 10:43:57
  */
 @Service
 public class ProdCommServiceImpl extends ServiceImpl<ProdCommMapper, ProdComm> implements ProdCommService {

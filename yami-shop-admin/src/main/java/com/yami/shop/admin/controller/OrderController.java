@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018-2999 广州市蓝海创新科技有限公司 All rights reserved.
- *
- * https://www.mall4j.com/
- *
- * 未经允许，不可做商业用途！
- *
- * 版权所有，侵权必究！
- */
 
 package com.yami.shop.admin.controller;
 
@@ -45,7 +36,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author lgh on 2018/09/15.
+ * 订单管理
+ *
+ * @author renhai
+ * @date 2023/5/3.
  */
 @Slf4j
 @Controller
@@ -72,7 +66,7 @@ public class OrderController {
      */
     @GetMapping("/page")
     @PreAuthorize("@pms.hasPermission('order:order:page')")
-    public ResponseEntity<IPage<Order>> page(OrderParam orderParam,PageParam<Order> page) {
+    public ResponseEntity<IPage<Order>> page(OrderParam orderParam, PageParam<Order> page) {
         Long shopId = SecurityUtils.getSysUser().getShopId();
         orderParam.setShopId(shopId);
         IPage<Order> orderIPage = orderService.pageOrdersDetialByOrderParam(page, orderParam);
@@ -124,7 +118,7 @@ public class OrderController {
         List<OrderItem> orderItems = orderItemService.getOrderItemsByOrderNumber(deliveryOrderParam.getOrderNumber());
         for (OrderItem orderItem : orderItems) {
             productService.removeProductCacheByProdId(orderItem.getProdId());
-            skuService.removeSkuCacheBySkuId(orderItem.getSkuId(),orderItem.getProdId());
+            skuService.removeSkuCacheBySkuId(orderItem.getSkuId(), orderItem.getProdId());
         }
         return ResponseEntity.ok().build();
     }
