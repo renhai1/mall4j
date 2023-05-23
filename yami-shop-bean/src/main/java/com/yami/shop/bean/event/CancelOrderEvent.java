@@ -8,7 +8,6 @@ import lombok.Data;
 
 /**
  *  取消订单的事件
- * @author
  */
 @Data
 @AllArgsConstructor

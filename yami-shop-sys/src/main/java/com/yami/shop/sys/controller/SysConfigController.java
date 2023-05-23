@@ -32,7 +32,6 @@ import cn.hutool.core.util.StrUtil;
 
 /**
  * 系统配置信息
- * @author lgh
  */
 @RestController
 @RequestMapping("/sys/config")

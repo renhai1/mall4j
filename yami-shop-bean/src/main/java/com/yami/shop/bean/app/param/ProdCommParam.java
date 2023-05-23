@@ -2,17 +2,15 @@
 
 package com.yami.shop.bean.app.param;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.yami.shop.common.serializer.json.ImgJsonSerializer;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;
-import java.util.List;
 
 @Data
-@ApiModel(value= "添加评论信息")
+@ApiModel(value = "添加评论信息")
 public class ProdCommParam {
     /**
      * 商品ID
@@ -28,11 +26,11 @@ public class ProdCommParam {
     /**
      * 评价，0-5分
      */
-    @ApiModelProperty(value = "评价，0-5分",required=true)
+    @ApiModelProperty(value = "评价，0-5分", required = true)
     @NotNull(message = "评价不能为空")
     private Integer score;
 
-    @ApiModelProperty(value = "评论内容",required=true)
+    @ApiModelProperty(value = "评论内容", required = true)
     private String content;
 
     @ApiModelProperty(value = "评论图片, 用逗号分隔")

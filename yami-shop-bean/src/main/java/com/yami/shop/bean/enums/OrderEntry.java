@@ -4,7 +4,6 @@ package com.yami.shop.bean.enums;
 
 /**
  * 订单入口
- * @author LGH
  */
 public enum OrderEntry {
 

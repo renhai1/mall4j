@@ -3,7 +3,6 @@ package com.yami.shop.bean.enums;
 
 /**
  * 商品规格参数、属性类型
- * @author lgh
  */
 public enum ProdPropRule {
 

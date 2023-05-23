@@ -1,9 +1,7 @@
 
 package com.yami.shop.bean.enums;
 
-/**
- * @author lh
- */
+
 public enum SendType {
     /**
      * 用户注册验证码

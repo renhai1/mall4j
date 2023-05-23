@@ -14,7 +14,6 @@ import java.util.List;
 
 /**
  * 确认订单时的事件
- * @author LGH
  */
 @Data
 @AllArgsConstructor
