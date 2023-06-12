@@ -11,9 +11,6 @@ import com.yami.shop.bean.model.UserCollection;
 
 /**
  * 用户收藏表
- *
- * @author xwc
- * @date 2019-04-19 16:57:20
  */
 public interface UserCollectionService extends IService<UserCollection> {
     IPage<UserCollectionDto> getUserCollectionDtoPageByUserId(Page page, String userId);

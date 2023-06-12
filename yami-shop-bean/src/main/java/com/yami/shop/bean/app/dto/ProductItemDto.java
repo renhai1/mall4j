@@ -12,9 +12,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author LGH
- */
+
 @Data
 public class ProductItemDto implements Serializable {
 

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 商城配置文件
+ *
  * @author renhai
  * @date 2023/5/3
  */
@@ -18,14 +19,14 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "admin")
 public class AdminConfig {
 
-	/**
-	 * 数据中心ID
-	 */
-	private Integer datacenterId;
+    /**
+     * 数据中心ID
+     */
+    private Integer datacenterId;
 
-	/**
-	 * 终端ID
-	 */
-	private Integer workerId;
+    /**
+     * 终端ID
+     */
+    private Integer workerId;
 
 }

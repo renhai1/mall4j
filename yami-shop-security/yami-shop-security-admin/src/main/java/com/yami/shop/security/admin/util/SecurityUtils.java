@@ -6,10 +6,7 @@ import com.yami.shop.security.common.bo.UserInfoInTokenBO;
 import com.yami.shop.security.common.util.AuthUserContext;
 import lombok.experimental.UtilityClass;
 
-/**
- *
- * @author LGH
- */
+
 @UtilityClass
 public class SecurityUtils {
     /**

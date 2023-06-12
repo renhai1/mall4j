@@ -22,7 +22,6 @@ import javax.validation.Valid;
 
 /**
  * 定时任务
- * @author lgh
  */
 @Slf4j
 @RestController

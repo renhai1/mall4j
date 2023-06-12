@@ -13,7 +13,6 @@ import java.lang.reflect.Method;
 
 /**
  * 定时任务spring bean 执行定时任务
- * @author LGH
  */
 @Slf4j
 public class SpringBeanTaskUtil {

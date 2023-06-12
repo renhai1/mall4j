@@ -15,9 +15,6 @@ import java.util.List;
 
 /**
  * 商品评论
- *
- * @author xwc
- * @date 2019-04-19 10:43:57
  */
 public interface ProdCommService extends IService<ProdComm> {
     ProdCommDataDto getProdCommDataByProdId(Long prodId);

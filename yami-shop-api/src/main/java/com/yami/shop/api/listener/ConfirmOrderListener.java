@@ -22,10 +22,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-/**
- * 确认订单信息时的默认操作
- * @author LGH
- */
+
 @Component("defaultConfirmOrderListener")
 @AllArgsConstructor
 public class ConfirmOrderListener {

@@ -17,10 +17,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 
-/**
- *
- * @author lgh on 2018/10/26.
- */
+
 @RestController
 @RequestMapping("/p/area")
 @Api(tags="省市区接口")

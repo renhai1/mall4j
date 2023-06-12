@@ -11,7 +11,6 @@ import ma.glasnost.orika.impl.DefaultMapperFactory;
 
 /**
  * MapperFacade 用于dto ->entity的转换
- * @author lgh
  */
 @Configuration
 public class OrikaConfig {

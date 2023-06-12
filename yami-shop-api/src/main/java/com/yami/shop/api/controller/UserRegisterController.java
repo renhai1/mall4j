@@ -23,11 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.Date;
 
-/**
- * 用户信息
- *
- * @author SJL
- */
+
 @RestController
 @RequestMapping("/user")
 @Api(tags = "用户注册相关接口")

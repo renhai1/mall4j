@@ -10,9 +10,7 @@ import springfox.documentation.spring.web.json.JsonSerializer;
 
 import java.util.List;
 
-/**
- * @author LGH
- */
+
 @Configuration
 public class SpringFoxJsonSerializerConfig {
 

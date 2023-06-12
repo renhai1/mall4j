@@ -6,7 +6,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.safety.Safelist;
 /**
  * 描述: 过滤 HTML 标签中 XSS 代码
- * @author lgh
  */
 public class XssUtil {
     /**

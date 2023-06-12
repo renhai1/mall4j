@@ -5,11 +5,7 @@ package com.yami.shop.quartz.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yami.shop.quartz.model.ScheduleJob;
 
-/**
- * 
- * @author lgh
- *
- */
+
 public interface ScheduleJobService extends IService<ScheduleJob>{
 
 	/**

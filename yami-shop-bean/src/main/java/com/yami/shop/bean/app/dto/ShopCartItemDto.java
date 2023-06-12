@@ -13,9 +13,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author LGH
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class ShopCartItemDto extends ProductItemDto implements Serializable {

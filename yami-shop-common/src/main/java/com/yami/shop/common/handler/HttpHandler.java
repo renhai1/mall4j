@@ -13,10 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * @author 菠萝凤梨
- * @date 2022/3/28 14:15
- */
+
 @Component
 public class HttpHandler {
 

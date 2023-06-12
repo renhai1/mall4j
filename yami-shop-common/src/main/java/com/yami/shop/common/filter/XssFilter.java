@@ -15,7 +15,6 @@ import java.io.IOException;
 /**
  * 一些简单的安全过滤：
  * xss
- * @author lgh
  */
 @Component
 public class XssFilter implements Filter {

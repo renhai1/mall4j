@@ -18,9 +18,7 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 
-/**
- * @author lgh
- */
+
 @Aspect
 @Component
 public class RedisLockAspect {

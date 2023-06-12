@@ -1,9 +1,6 @@
 package com.yami.shop.common.constants;
 
-/**
- * @author 菠萝凤梨
- * @date 2022/3/28 14:32
- */
+
 public interface OauthCacheNames {
 
     /**

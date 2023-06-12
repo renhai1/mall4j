@@ -13,10 +13,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author FrozenWatermelon
- * @date 2022/4/24
- */
+
 @Configuration
 public class Swagger2Config {
 

@@ -12,8 +12,6 @@ import java.util.Date;
 /**
  * 用户收藏表
  *
- * @author xwc
- * @date 2019-04-19 16:57:20
  */
 @Data
 @TableName("tz_user_collection")

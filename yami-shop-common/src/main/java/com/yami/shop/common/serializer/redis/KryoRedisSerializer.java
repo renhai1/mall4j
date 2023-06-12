@@ -14,7 +14,6 @@ import java.util.Collections;
 
 /**
  * 使用Kryo 进行reids的序列化
- * @author LGH
  */
 @Slf4j
 public class KryoRedisSerializer<T> implements RedisSerializer<T> {

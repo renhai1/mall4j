@@ -5,11 +5,6 @@ import lombok.Data;
 
 import java.util.Set;
 
-/**
- * 用户详细信息
- *
- * @author
- */
 @Data
 public class YamiSysUser {
 

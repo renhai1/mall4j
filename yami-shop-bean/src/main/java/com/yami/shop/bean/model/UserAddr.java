@@ -15,8 +15,6 @@ import java.util.Date;
 /**
  * 用户地址管理
  *
- * @author hzm
- * @date 2019-04-15 10:49:40
  */
 @Data
 @TableName("tz_user_addr")

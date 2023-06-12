@@ -19,7 +19,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 
 /**
  * 定时任务日志
- * @author lgh
  */
 @RestController
 @RequestMapping("/sys/scheduleLog")

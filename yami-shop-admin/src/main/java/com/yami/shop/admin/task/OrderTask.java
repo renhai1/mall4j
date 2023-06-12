@@ -12,11 +12,9 @@ import org.springframework.stereotype.Component;
 import com.yami.shop.bean.enums.OrderStatus;
 import com.yami.shop.bean.model.Order;
 import com.yami.shop.bean.model.OrderItem;
-import com.yami.shop.bean.model.User;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.StrUtil;
 
 
 

@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 /**
  * 定时任务工具类
  *
- * @author lgh
  */
 @Component
 @AllArgsConstructor

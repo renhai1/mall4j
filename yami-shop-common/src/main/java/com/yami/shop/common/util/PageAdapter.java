@@ -6,9 +6,7 @@ import cn.hutool.core.util.PageUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.Data;
 
-/**
- * @author lh
- */
+
 @Data
 public class PageAdapter{
 

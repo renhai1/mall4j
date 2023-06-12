@@ -28,9 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author lgh on 2018/11/26.
- */
+
 @RestController
 @RequestMapping("/prod")
 @Api(tags = "商品接口")

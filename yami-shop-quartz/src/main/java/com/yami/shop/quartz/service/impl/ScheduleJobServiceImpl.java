@@ -19,8 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 
- * @author lgh
+ *
  */
 @Service
 public class ScheduleJobServiceImpl extends ServiceImpl<ScheduleJobMapper, ScheduleJob> implements ScheduleJobService {

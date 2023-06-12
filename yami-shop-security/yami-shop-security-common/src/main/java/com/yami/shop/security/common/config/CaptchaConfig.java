@@ -20,8 +20,6 @@ import java.util.Properties;
 
 /**
  * 这里把验证码的底图存入redis中，如果报获取验证码失败找管理员什么的可以看下redis的情况
- * @author 菠萝凤梨
- * @date 2022/3/25 17:33
  */
 @Configuration
 public class CaptchaConfig {

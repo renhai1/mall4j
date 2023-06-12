@@ -21,7 +21,6 @@ import javax.sql.DataSource;
 /**
  */
 @Configuration
-//@ConditionalOnBean(DataSource.class)
 @MapperScan({"com.yami.shop.**.dao"})
 public class MybatisPlusConfig {
 

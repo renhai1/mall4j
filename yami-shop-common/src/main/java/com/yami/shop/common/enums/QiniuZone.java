@@ -1,9 +1,6 @@
 package com.yami.shop.common.enums;
 
-/**
- * 七牛云zone的选择
- * @author LGH
- */
+
 public enum QiniuZone {
 
     /**

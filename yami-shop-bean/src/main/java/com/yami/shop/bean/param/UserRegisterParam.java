@@ -6,9 +6,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-/**
- * @author lh
- */
+
 @Data
 @ApiModel(value= "设置用户信息")
 public class UserRegisterParam {

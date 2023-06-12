@@ -11,11 +11,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import io.swagger.annotations.ApiModelProperty;
 
-/**
- * 订单下的每个店铺
- *
- * @author YaMi
- */
+
 @Data
 public class OrderShopDto implements Serializable {
 

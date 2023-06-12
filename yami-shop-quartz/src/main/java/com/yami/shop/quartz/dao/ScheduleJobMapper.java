@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Param;
 
 /**
  * 定时任务，任务调度mapper
- * @author lgh
  */
 public interface ScheduleJobMapper extends BaseMapper<ScheduleJob> {
 

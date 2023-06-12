@@ -26,11 +26,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-/**
- * 确认订单信息时的默认操作
- *
- * @author LGH
- */
+
 @Component("defaultSubmitOrderListener")
 @AllArgsConstructor
 public class SubmitOrderListener {

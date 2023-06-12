@@ -14,10 +14,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * 默认的购物车链进行组装时的操作
- * @author LGH
- */
+
 @Component("defaultShopCartListener")
 public class ShopCartListener {
 

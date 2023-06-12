@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
  * 自定义错误处理器
- * @author LGH
  */
 @Slf4j
 @Controller
